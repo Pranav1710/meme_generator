@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "imgUrl": "/memes/1.jpg"
+    },
+    {
+        "id": 2,
+        "imgUrl": "/memes/2.jpg"
+    },
+    {
+        "id": 3,
+        "imgUrl": "/memes/3.jpg"
+    },
+    {
+        "id": 4,
+        "imgUrl": "/memes/4.jpg"
+    },
+    {
+        "id": 5,
+        "imgUrl": "/memes/5.jpg"
+    },
+    {
+        "id": 1,
+        "imgUrl": "/memes/6.jpg"
+    }
+]

@@ -7,12 +7,14 @@ import {
   userDetailsReducer,
   userUpdateProfileReducer,
 } from "./reducers/userReducers";
+import {memePostReducer} from "./reducers/memeReducers"
 
 const reducers = combineReducers({
   userLogin: userLoginReducer,
   userRegister: userRegisterReducer,
   userDetails: userDetailsReducer,
   userUpdateProfile: userUpdateProfileReducer,
+  memePost: memePostReducer,
 });
 
 const userInfoFromStorage = localStorage.getItem("userInfo")

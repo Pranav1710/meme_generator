@@ -1,0 +1,47 @@
+.meme-generator {
+  margin: 20px auto;
+  width: 400px;
+  font-family: sans-serif;
+}
+
+.meme-generator label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.meme-generator input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+#meme {
+  width: 100%;
+}
+
+.meme-edit{
+    border: 2px solid black;
+    border-radius: .5rem;
+    height: 420px;
+    object-fit: contain;
+}
+.meme-edit canvas{
+    height: 400px;
+}
+
+.meme-select{
+    margin: 0 2rem;
+    cursor: pointer;
+}
+.meme-select div{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.meme-select img{
+    object-fit: cover;
+    height: 200px;
+}
+
+
